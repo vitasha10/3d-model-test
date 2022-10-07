@@ -4,4 +4,27 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  overflow: hidden;
+  background-color: #111a21;
+}
+canvas{
+  background-color: #111a21;
+  width: 380px;
+  height: 100vh;
+}
+.canvasDiv{
+  display: block;
+  margin-left: 700px;
+}
+@media screen and (max-width: 480px) {
+  .headerText{
+    padding: 120px 0 0 0 !important;
+    text-align: center;
+    display: block;
+    width: 100vw;
+  }
+  .canvasDiv{
+    margin-top: 200px;
+    margin-left: 0;
+  }
 }
